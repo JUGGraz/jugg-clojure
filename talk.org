@@ -1,0 +1,119 @@
+* What's Clojure
+
+ [[./clojure.png]]
+
+- A dynamic JVM language
+  - CLR too
+  - JS as well
+- Lisp family
+- "Functional bias"
+  - Most things are immutable
+  - Mutable also well-supported
+
+
+* What's the Problem We're Solving?
+
+- Holding trainings / workshops
+
+[[./battlestations.png]]
+
+** Actually: Assigning Participants to Groups
+
+- Interactive workshops are best at ~ 5 people
+- Train 50!
+- Evaluating with survey:
+  - ~50 people * ~20 Questions ~= 1000 items
+  - Multi-select questions! ⇒ ~1500 items
+
+
+* Short Problem Statement
+
+- [HAVE] Spreadsheet:
+  - Questions
+  - Participants
+  - Answers
+- [FIND] Extract answers per question
+  - Easily scorable format.
+- [FIND] Assign scores to participants
+  - Given original spreadsheet…
+  - …and prescored answers.
+
+
+* Let's take a look at inputs / behaviour / outputs
+
+[[./Imagination.png]]
+
+
+
+* A bit of syntax
+
+|----------+-----------------------------------+---------------|
+| Thing    | Java                              | Clojure       |
+|----------+-----------------------------------+---------------|
+| "Call"   | bla(foo bar);                     | (bla foo bar) |
+| on Obj   | mu.baz(gah);                      | (.baz mu gah) |
+| "Map"    | Map x = new HashMap();            | {a b c d}     |
+|          | x.put(a, b);                      |               |
+|          | x.put(c, d);                      |               |
+| "Set"    | Set y = new HashSet();            | #{e f}        |
+|          | y.add(e);                         |               |
+|          | y.add(f);                         |               |
+| "Vector" | List z = new ArrayList();         | [g h]         |
+|          | z.add(g);                         |               |
+|          | z.add(h);                         |               |
+| "Lambda" | (T1 one, T2 two) -> bla(one, two) | #(bla %1 %2)  |
+|----------+-----------------------------------+---------------|
+
+
+* Let's see how sausage is actually made
+
+[[./knowing.jpg]]
+
+
+* To recap
+
+[[./rich-hickey.jpg]]
+
+- Clojure is compact: Tool ~100 LOC
+  - Painfully dense, at times
+  - In fact, that was not the original program…
+ - Philosophy
+  - Rich Hickey has strong opinions.
+  - KISS!
+    - Talk of a lifetime:
+      http://www.infoq.com/presentations/Simple-Made-Easy
+  - Libraries, not frameworks
+
+
+* More
+
+- Homepage – http://clojure.org/
+- Learn – https://www.4clojure.com/
+- Find – http://www.clojure-toolbox.com/
+- Develop with pleasure! – https://cursiveclojure.com/
+
+** Some People
+
+| @planetclojure  | Posts things related to Clojure         |
+| @p_brc @cljvie  | Peter Brachwitz: .at community          |
+| @bendlas        | Herwig Hochleitner: WebNF               |
+| @aphyr (NSFW!)  | Kyle Kingsbury: Riemann, Tesser, Jepsen |
+| @cursiveclojure | Cursive Clojure IDE                     |
+| @xaibeha        | Me!                                     |
+
+
+* This message brought to you by…
+
+Bernd Haug <bernd.haug@xaidat.com>
+
+Senior Dev @ Xaidat
+
+[[./xaidat.png]]
+
+@xaidat
+
+http://www.xaidat.com/
+
+** Fork this
+
+https://github.com/xaibeha/jugg-clojure.git

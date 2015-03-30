@@ -1,0 +1,3 @@
+Clojure is a dynamic JVM language with a functional bias. I'll show a
+real program solving a classification problem I had while organizing
+git workshops.

@@ -1,0 +1,80 @@
+{
+  "Git Workflows" : {
+    "gitblit…)" : 0,
+    "Atlassian Stash" : 10,
+    "Pull-Requests basiert (z.B. auf github" : 10,
+    "Feature branching; mit einem zentralen Repository" : 0,
+    "GitFlow oder GithubFlow" : 0,
+    "TFS…)" : 0,
+    "mit einem zentralen Repository (wie Subversion" : 10,
+    "Arbeit auf master branch" : 0
+  },
+  "Index / Staging" : {
+    "Auf Ebene einzelner Änderungen (git add --patch)" : 20,
+    "Auf Dateiebene (git add <dateiname>)" : 10
+  },
+  "Interna" : {
+    "Keine Kenntnisse über git-Interna" : 0,
+    "Ich kenne die git-Interna" : 30
+  },
+  "Autorenschaft von Code feststellen" : {
+    "Für konkrete Zeilen" : 20
+  },
+  "Reflog und Garbage Collection" : {
+    "Ich habe nicht referenzierte Commits mit \"git reflog\" recovered" : 40,
+    "Noch nicht damit gearbeitet" : 0
+  },
+  "Index / Unstaging" : {
+    "Einzelne Dateien entfernen (git rm)" : 10,
+    "Keine Erfahrung" : 0
+  },
+  "SSH / Fortgeschrittene" : {
+    "Public Key Authentication" : 10,
+    "Port Forwarding & Tunneling" : 10
+  },
+  "Repository und Working Directory" : {
+    "Bereits damit gearbeitet" : 10
+  },
+  "Unix-Shell-Praxis" : {
+    "Einzelne Befehle eingegeben" : 0
+  },
+  "Stashes" : {
+    "Bereits damit gearbeitet" : 10,
+    "Noch nicht damit gearbeitet" : 0
+  },
+  "Git-Werkzeuge / Frontend-Programme" : {
+    "Native-Einbettung in Visual Studio (2013+)" : 0,
+    "git selbst (command line)" : 50,
+    "Tower" : 0,
+    "magit (Emacs)" : 100,
+    "GitX" : 40,
+    "git UI" : 10,
+    "gitk" : 20
+  },
+  "Bisherige Erfahrung mit git" : {
+    "Nur Lesend (z.B. um Open Source-Projekte von github zu clonen)" : 0,
+    "Alleine (z.B. zur Verwaltung von Hobby-Projekten)" : 0
+  },
+  "Rebasing" : {
+    "Mit git rebase --interactive gearbeitet" : 30,
+    "Mit git rebase gearbeitet" : 10
+  },
+  "Remotes" : {
+    "Ich habe mit mehreren Remotes gearbeitet" : 20,
+    "Keine Erfahrung" : 0,
+    "Nur push/pull gegen das Repository, von dem ich ausgecheckt habe (\"origin\")" : 10
+  },
+  "Tagging" : {
+    "Noch nicht damit gearbeitet" : 0,
+    "Normale Tags (git tag / git tag -a)" : 5,
+    "Bereits damit gearbeitet" : 10
+  },
+  "Branching und Merging" : {
+    "Noch nicht damit gearbeitet" : 0,
+    "Bereits damit gearbeitet" : 10
+  },
+  "SSH" : {
+    "Noch nicht" : 0,
+    "Mit OpenSSH oder plink.exe (PuTTY command line)" : 10
+  }
+}

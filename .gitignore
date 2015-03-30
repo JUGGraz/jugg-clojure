@@ -1,0 +1,10 @@
+.DS_Store
+code/.idea
+code/*.iml
+code/target
+*~
+/antworten.csv
+/scored.csv
+/scores.json
+/questions.txt
+/code/.nrepl-port

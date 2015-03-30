@@ -1,0 +1,18 @@
+Repository und Working Directory
+Branching und Merging
+Tagging
+Autorenschaft von Code feststellen
+Bisherige Erfahrung mit git
+Index / Staging
+Index / Unstaging
+Remotes
+Stashes
+Rebasing
+Tagging
+Reflog und Garbage Collection
+Interna
+!Git-Werkzeuge / Frontend-Programme
+!Git Workflows
+Unix-Shell-Praxis
+SSH
+!SSH / Fortgeschrittene
